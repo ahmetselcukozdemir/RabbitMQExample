@@ -26,7 +26,7 @@ namespace RabbitMQ.Sender
                 var factory = new ConnectionFactory();
 
                 //url'i tanımlıyoruz.
-                factory.Uri = new Uri("amqps://txuwvldz:4SmUuZQISipyjCoSrM81QFEhudCpZE9N@chimpanzee.rmq.cloudamqp.com/txuwvldz");
+                factory.Uri = new Uri("*********");
 
                 //connection oluşturuyoruz.
 

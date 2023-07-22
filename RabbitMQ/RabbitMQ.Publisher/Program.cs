@@ -22,7 +22,7 @@ namespace RabbitMQ.Publisher
             //öncelikle bir bağlantı oluşturuyoruz.
 
             ConnectionFactory factory = new ConnectionFactory();
-            factory.Uri = new Uri("amqps://lqklsdpn:EWvh4S5aLfwruWutVwkbkeVik5OI6mkw@toad.rmq.cloudamqp.com/lqklsdpn");
+            factory.Uri = new Uri("*****************");
 
             //bağlantıyı aktifleştirme ve kanal açma
 

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Publisher", "Rabbi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Consumer", "RabbitMQ.Consumer\RabbitMQ.Consumer.csproj", "{263C47BA-4F08-4C5C-8F6E-011D0C86AA77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ESB.MassTransit.Publisher", "RabbitMQ.ESB.MassTransit.Publisher\RabbitMQ.ESB.MassTransit.Publisher.csproj", "{FF4F8379-2B4F-4A22-BB77-EE044CCE6BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ESB.MassTransit.Shared", "RabbitMQ.ESB.MassTransit.Shared\RabbitMQ.ESB.MassTransit.Shared.csproj", "{97E964B4-3D04-433D-961C-A5B507F9C737}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{263C47BA-4F08-4C5C-8F6E-011D0C86AA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{263C47BA-4F08-4C5C-8F6E-011D0C86AA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{263C47BA-4F08-4C5C-8F6E-011D0C86AA77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4F8379-2B4F-4A22-BB77-EE044CCE6BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4F8379-2B4F-4A22-BB77-EE044CCE6BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4F8379-2B4F-4A22-BB77-EE044CCE6BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4F8379-2B4F-4A22-BB77-EE044CCE6BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E964B4-3D04-433D-961C-A5B507F9C737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E964B4-3D04-433D-961C-A5B507F9C737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E964B4-3D04-433D-961C-A5B507F9C737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E964B4-3D04-433D-961C-A5B507F9C737}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

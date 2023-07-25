@@ -15,7 +15,14 @@ IHost host = Host.CreateDefaultBuilder(args)
             });
         });
 
-        services.AddHostedService<PublishMessageService>();
+        //servisimizin referansýnýn bildiriyoruz.
+        services.AddHostedService<PublishMessageService>(provider =>
+        {
+            //worker servislerde masstransit kullanýrken inject hatasý için bu eklemeyi yapýyoruz.
+            using IServiceScope scope = provider.CreateScope();
+            IPublishEndpoint publishEndpoint = scope.ServiceProvider.GetService<IPublishEndpoint>();
+            return new(publishEndpoint);
+        });
     })
     .Build();
 

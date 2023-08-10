@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qBNA3PS4Q24R8fE54EJu1JonpFWlpljKE7nQBdZFzBRq+0Mlp/RIn3rSqoCRYQvPF8/51Y6egMJugkJAWBwQUA==",
+  "dgSpecHash": "NDMhq11NUtlPQhzwV19Rt4yAA6h8fBPEt2pAoMUJndq6X524LDu51oJZJwCtTghKahDtMwRGF0uT0YsbBrP1eg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ahmet.ozdemir\\Documents\\GitHub\\RabbitMQExample\\RabbitMQ\\MassTransit\\RabbitMQ.MassTransit.Consumer\\RabbitMQ.MassTransit.Consumer.csproj",
   "expectedPackageFiles": [

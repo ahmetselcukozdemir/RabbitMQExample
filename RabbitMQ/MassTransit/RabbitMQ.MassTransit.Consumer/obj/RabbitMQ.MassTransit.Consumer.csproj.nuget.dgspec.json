@@ -44,6 +44,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
             "MassTransit.RabbitMQ": {
               "target": "Package",
               "version": "[8.0.16, )"

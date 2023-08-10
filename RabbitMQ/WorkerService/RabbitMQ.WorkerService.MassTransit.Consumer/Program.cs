@@ -1,11 +1,12 @@
-using MassTransit;
+ï»¿using MassTransit;
+using Microsoft.Extensions.Hosting;
 using RabbitMQ.WorkerService.MassTransit.Consumer;
 using RabbitMQ.WorkerService.MassTransit.Consumer.Consomer;
 
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
     {
-        //temel yapýlandýrma
+        //temel yapÄ±landÄ±rma
         services.AddMassTransit(configurator =>
         {
             configurator.AddConsumer<ExampleMessageConsomer>();

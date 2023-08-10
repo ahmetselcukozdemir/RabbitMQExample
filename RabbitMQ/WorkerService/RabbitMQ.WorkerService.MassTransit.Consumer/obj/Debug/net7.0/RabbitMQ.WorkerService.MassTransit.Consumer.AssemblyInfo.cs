@@ -11,8 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-RabbitMQ.WorkerService.MassTransit.Consumer-c28d6baa-c121-4037-adcb-55afa6" +
-    "03fa02")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("RabbitMQ.WorkerService.MassTransit.Consumer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

@@ -1,0 +1,5 @@
+C:\Users\ahmet.ozdemir\Documents\GitHub\RabbitMQExample\RabbitMQ\MassTransit\RabbitMQ.MassTransit.Consumer\obj\Debug\net7.0\RabbitMQ.MassTransit.Consumer.csproj.AssemblyReference.cache
+C:\Users\ahmet.ozdemir\Documents\GitHub\RabbitMQExample\RabbitMQ\MassTransit\RabbitMQ.MassTransit.Consumer\obj\Debug\net7.0\RabbitMQ.MassTransit.Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmet.ozdemir\Documents\GitHub\RabbitMQExample\RabbitMQ\MassTransit\RabbitMQ.MassTransit.Consumer\obj\Debug\net7.0\RabbitMQ.MassTransit.Consumer.AssemblyInfoInputs.cache
+C:\Users\ahmet.ozdemir\Documents\GitHub\RabbitMQExample\RabbitMQ\MassTransit\RabbitMQ.MassTransit.Consumer\obj\Debug\net7.0\RabbitMQ.MassTransit.Consumer.AssemblyInfo.cs
+C:\Users\ahmet.ozdemir\Documents\GitHub\RabbitMQExample\RabbitMQ\MassTransit\RabbitMQ.MassTransit.Consumer\obj\Debug\net7.0\RabbitMQ.MassTransit.Consumer.csproj.CoreCompileInputs.cache

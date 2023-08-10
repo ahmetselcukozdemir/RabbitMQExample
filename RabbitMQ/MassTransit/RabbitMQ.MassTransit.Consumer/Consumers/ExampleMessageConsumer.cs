@@ -1,4 +1,5 @@
-﻿using MassTransit;
+﻿
+using MassTransit;
 using RabbitMQ.MassTransit.Shared.Messages;
 using System;
 using System.Collections.Generic;

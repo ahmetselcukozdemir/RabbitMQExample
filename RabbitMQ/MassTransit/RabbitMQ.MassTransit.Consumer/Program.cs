@@ -1,12 +1,13 @@
-﻿using MassTransit;
+﻿﻿using MassTransit;
 using RabbitMQ.MassTransit.Consumer.Consumers;
 using RabbitMQ.MassTransit.Shared.Messages;
 
-string rabbitMQUri = "amqps://lqklsdpn:EWvh4S5aLfwruWutVwkbkeVik5OI6mkw@toad.rmq.cloudamqp.com/lqklsdpn";
+string rabbitMQUri = "*******";
 
 string queueName = "example-queue"; // kuyruk adı
 
 // RabbitMQ'ya bağlantı oluştur ve mesajları alacak bir endpoint oluştur
+
 IBusControl bus = Bus.Factory.CreateUsingRabbitMq(factory =>
 {
     factory.Host(rabbitMQUri); // Belirtilen RabbitMQ adresine bağlanmak için Host metodu kullanılır
@@ -21,5 +22,3 @@ IBusControl bus = Bus.Factory.CreateUsingRabbitMq(factory =>
 await bus.StartAsync();
 
 Console.Read();
-
-

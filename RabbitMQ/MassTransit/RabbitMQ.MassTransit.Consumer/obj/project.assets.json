@@ -970,6 +970,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "MassTransit >= 8.0.16",
       "MassTransit.RabbitMQ >= 8.0.16",
       "RabbitMQ.MassTransit.Shared >= 1.0.0"
     ]
@@ -1017,6 +1018,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "MassTransit": {
+            "target": "Package",
+            "version": "[8.0.16, )"
+          },
           "MassTransit.RabbitMQ": {
             "target": "Package",
             "version": "[8.0.16, )"
